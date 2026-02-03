@@ -6,7 +6,7 @@ data "intersight_organization_organization" "myorg" {
 ##### 2 - Get blade moid based on Serial #### 
 data "intersight_compute_blade" "myblade" {
   serial  = var.server_serial
-  ## asset_tag = var.server_tag
+  ## asset_tag = var.server_tag ### Asset tag assigned to Server can also be used to identify blade where SP will be assigned ###
 }
 
 ##### 3 - Get existing mac-pool based on name #### 
