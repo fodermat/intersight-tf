@@ -26,9 +26,9 @@ resource "intersight_ippool_pool" "myIP_pool" {
 
   ip_v4_config {
     object_type = "ippool.IpV4Config"
-    gateway     = "10.48.54.1"
+    gateway     = "1.1.1.1"
     netmask     = "255.255.255.128"
-    primary_dns = "72.163.128.140"
+    primary_dns = "1.1.1.100"
   }
 
   ip_v4_blocks {
