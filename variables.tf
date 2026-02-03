@@ -1,0 +1,22 @@
+variable "org_name" {}
+variable "api_private_key" {}
+variable "api_key_id" {}
+variable "api_endpoint" {
+  default = "https://eu-central-1.intersight.com"
+}
+variable "server_serial" {}
+variable "server_tag" {}
+variable "mac_pool" {}
+variable "server_profile" {}
+variable "boot_pol" {}
+variable "lan_pol" {}
+variable "imc_pol" {}
+variable "netGroup_pol" {}
+variable "vlan_range" {}
+variable "qos_pol" {}
+variable "netControl_pol" {}
+variable "netAdapter_pol" {}
+variable "ip_pool" {}
+variable "first_IP" {}
+variable "last_IP" {}
+variable "inband_vlan" {}
