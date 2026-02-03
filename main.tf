@@ -196,10 +196,10 @@ resource "intersight_server_profile" "srv_prof" {
     }
   
   ### Assign SP to selected Blade server ###
-    ##assigned_server {
-    ##    moid = data.intersight_compute_blade.myblade.results[0].moid
-    ##    object_type = "compute.Blade"
-    ##}
+    assigned_server {
+        moid = data.intersight_compute_blade.myblade.results[0].moid
+        object_type = "compute.Blade"
+    }
     
   }
 
